@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div id="main">
+    <div id="parent">
+      <div id="display"><input id="inputtext" type="text"></div>
+      <div id="keyboard">
+        <div id="btncontainer">
+          <div id="btncontainertop">
+            <div id="row1" class="row">
+              <div id="btn1" class="btn"><button onclick="clr()">C</button></div>
+              <div id="btn2" class="btn"><button onclick="calculate('%')">%</button></div>
+              <div id="btn3" class="btn"><button onclick="calculate('/')">/</button></div>
+              <div id="btn4" class="btn"><button onclick="calculate('*')">*</button></div>
+            </div>
+            <div id="row2" class="row">
+              <div id="btn1" class="btn"><button onclick="calculate(7)">7</button></div>
+              <div id="btn2" class="btn"><button onclick="calculate(8)">8</button></div>
+              <div id="btn3" class="btn"><button onclick="calculate(9)">9</button></div>
+              <div id="btn4" class="btn"><button onclick="calculate('-')">-</button></div>
+            </div>
+            <div id="row3" class="row">
+              <div id="btn1" class="btn"><button onclick="calculate(4)">4</button></div>
+              <div id="btn2" class="btn"><button onclick="calculate(5)">5</button></div>
+              <div id="btn3" class="btn"><button onclick="calculate(6)">6</button></div>
+              <div id="btn4" class="btn"><button onclick="calculate('+')">+</button></div>
+            </div>
+          </div>
+          <div id="btncontainerbtm">
+            <div id="btnbtmleft">
+              <div id="row4" class="rows">
+                <div id="btn1" class="btn"><button onclick="calculate(1)">1</button></div>
+                <div id="btn2" class="btn"><button onclick="calculate(2)">2</button></div>
+                <div id="btn3" class="btn"><button onclick="calculate(3)">3</button></div>
+              </div>
+              <div id="row5" class="rows">
+                <div id="btn1" class="btn"><button onclick="calculate('.')">.</button></div>
+                <div id="btn2" class="btn"><button onclick="calculate(0)">0</button></div>
+                <div id="btn3" class="btn"><button onclick="del()">DEL</button></div>
+              </div>
+            </div>`
+            <div id="equal"><button onclick="Result()">=</button></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
