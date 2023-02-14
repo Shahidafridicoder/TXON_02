@@ -11,7 +11,7 @@ html,body{
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: rgb(241, 226, 163);
+  background-color: #004545;
 }
 #parent{
   position: absolute;
@@ -21,8 +21,8 @@ html,body{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  border: 1px solid gray;
-  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
   overflow: hidden;
 }
 #parent #display{
@@ -45,7 +45,7 @@ html,body{
   position: relative;
   width: 100%;
   height: 65%;
-  background-color: rgb(176, 104, 104);
+  background-color: #5f6351;
 }
 #keyboard #btncontainer{
   width: 90%;
@@ -115,7 +115,7 @@ html,body{
 .rows .btn{
   width: 30%;
   height: 100%;
-  background-color: #323232;
+  background-color: #181818;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
@@ -130,7 +130,7 @@ html,body{
 #equal{
   width: 23%;
   height: 100%;
-  background: linear-gradient(#00D5BE, #004545);
+  background: linear-gradient(#0dad9d, #004545);
   border-radius: 10px;
   align-items: center;
   justify-content: center;
@@ -142,12 +142,12 @@ html,body{
 button{
   width: 100%;
   height: 100%;
-  background-color: #323232;
+  background-color: #0d1321cb;
   border: 0;
   color: white;
   font-size: 25px;
 }
 button:hover{
   transform: scale(1.2);
-  background: #431e09;
+  background: #2b234497;
 }
